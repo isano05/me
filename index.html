@@ -5,27 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Frontend Mentor | Profile card component</title>
-
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | 3-column preview card component</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  <div class="card-box">
-    <div class="header"></div>
-    <div class="body">
-      <img src="/images/image-victor.jpg" alt="">
-      <h1 class="name-age">
-        <span class="name">Victor Crest</span>
-        <span class="age">26</span>
-      </h1>
-      <h3 class="location">London</h3>
+  <div class="container">
+    <div id="col-1">
+      <div class="icon"><img src="/images/icon-sedans.svg" alt=""></div>
+      <div class="col">
+        <h1>Sedans</h1>
+        <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+        <div class="button"><button>Learn More</button></div>
+      </div>
     </div>
-    <div class="stats-container"><div class="stat"><span>80K</span> <span>followers</span></div><div class="stat"><span>803K</span> <span>likes</span></div><div class="stat"><span>1.4K</span> <span>photos</span></div></div>
+    <div id="col-2">
+      <div class="icon"><img src="/images/icon-suvs.svg" alt=""></div>
+      <div class="col">
+        <h1>SUVs</h1>
+        <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+        <div class="button"><button>Learn More</button></div>
+      </div>
+    </div>
+    <div id="col-3">
+      <div class="icon"><img src="/images/icon-luxury.svg" alt=""></div>
+      <div class="col">
+        <h1>Luxury</h1>
+        <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style. </p>
+        <div class="button"><button>Learn More</button></div>
+      </div>
+
+    </div>
   </div>
 </body>
 </html>
